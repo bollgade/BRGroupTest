@@ -1,0 +1,21 @@
+{
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"i18n-ally.enabledFrameworks": [
+		"react",
+		"i18next",
+		"general"
+	],
+	"i18n-ally.localesPaths": [
+		"public/locales",
+		"src/shared/config/i18n"
+	],
+	"i18n-ally.sourceLanguage": "ru",
+	"i18n-ally.keystyle": "nested",
+	"stylelint.enable": true,
+	"css.validate": true,
+	"scss.validate": true,
+	"stylelint.validate": [
+		"css",
+		"scss"
+	],
+}

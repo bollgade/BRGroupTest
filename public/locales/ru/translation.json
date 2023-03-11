@@ -1,10 +1,16 @@
 {
+  "Author": "Автор",
+  "Comments": "Комментарии",
+  "Comments count": "Кол-во комментариев",
+  "Date of publication": "Дата публикации",
   "Error message": "Что-то пошло не так!",
   "Language": "Русский",
+  "Link to news": "Cсылкa на новость<",
   "Lng": "Ру",
   "Loading": "Загрузка...",
   "Main": "Главная",
+  "Main page": "Главная страница",
   "Page not found": "Страница не найдена",
-  "update page": "Обновить страницу",
-  "Main page": "Главная страница"
+  "Update": "Обновить",
+  "update page": "Обновить страницу"
 }

@@ -1,10 +1,16 @@
 {
+  "Author": "Author",
+  "Comments": "Comments",
+  "Comments count": "Comments' count",
+  "Date of publication": "Date of publication",
   "Error message": "Something went wrong!",
   "Language": "English",
+  "Link to news": "Link to news",
   "Lng": "En",
   "Loading": "Loading...",
   "Main": "Main",
+  "Main page": "Main page",
   "Page not found": "Page not found",
-  "update page": "Refresh the page",
-  "Main page": "Main page"
+  "Update": "Update",
+  "update page": "Refresh the page"
 }

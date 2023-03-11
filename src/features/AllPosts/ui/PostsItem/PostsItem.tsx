@@ -24,8 +24,8 @@ export const PostsItem: FC<PostsItemProps> = (props) => {
       onClick={() => router(`/posts/${post.id}`)}
       className={classNames(cls.postsItem, {}, [className])}
     >
-      <Text title={`Заголовок: ${post.title}`} />
-      <Text text={`Рейтинг: ${post.score.toString()}`} />
+      <Text title={`${t('Title')}: ${post.title}`} />
+      <Text text={`${t('Score')}: ${post.score.toString()}`} />
       <Text text={`${t('Author')}: ${post.by}`} />
       <Text text={new Date(post.time * 1000).toLocaleString()} />
     </div>

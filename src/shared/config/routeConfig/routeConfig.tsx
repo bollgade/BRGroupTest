@@ -1,4 +1,4 @@
-import { Post } from 'entities/Post/ui/Post';
+import { Post } from 'entities/Post';
 import { MainPage } from 'pages/MainPage';
 import { NotFoundPage } from 'pages/NotFoundPage';
 import React from 'react';

@@ -1,8 +1,9 @@
 .sidebar {
-  height: calc(100vh - var(--navbar-height));
+  position: sticky;
+  top: 0;
+  height: 100vh;
   width: var(--sidebar-width);
   background: var(--inverted-bg-color);
-  position: relative;
   transition: width 0.3s;
 }
 
@@ -23,7 +24,8 @@
 
 .collapse-btn {
   position: absolute;
-  right: -32px;
+  z-index: 5;
+  right: 0px;
   bottom: 32px;
 }
 

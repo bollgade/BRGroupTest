@@ -1,11 +1,12 @@
 import { useState } from 'react';
 
-type useFetchingType = (callback: (...args: any) => any) => [((...args: any) => Promise<void>), boolean, string, null]
+type useFetchingType = <dataType>(callback: (...args: any) => any) =>
+  [((...args: any) => Promise<void>), boolean, string, dataType | undefined]
 
-export const useFetching: useFetchingType = (callback: (...args: any) => any) => {
+export const useFetching: useFetchingType = <dataType>(callback: (...args: any) => any) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<dataType>();
 
   const fetching: (...args: any) => Promise<void> = async (...args: any) => {
     try {
